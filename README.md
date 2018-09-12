@@ -13,12 +13,13 @@ the boolean literal true
 the boolean literal false 
 the literal null 
 an array of JSON values
-For example, a simple JSON object, with only string values, could be
+For example, a simple JSON object, with only string values, could be -
 
-```json {"firstName": "John", "lastName": "Doe"}
+```json
+{"firstName": "John", "lastName": "Doe"}
 ```
-
 Likewise, another JSON object can act as a value, as well as a number, either of the boolean literals or a null literal, as seen in the following example:
+
 ```json
 {
   "firstName": "John", 

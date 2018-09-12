@@ -13,13 +13,13 @@ the boolean literal true
 the boolean literal false 
 the literal null 
 an array of JSON values
-For example, a simple JSON object, with only string values, could be:
+For example, a simple JSON object, with only string values, could be
 
-```{"firstName": "John", "lastName": "Doe"}
-
+```json {"firstName": "John", "lastName": "Doe"}
+```
 
 Likewise, another JSON object can act as a value, as well as a number, either of the boolean literals or a null literal, as seen in the following example:
-
+```json
 {
   "firstName": "John", 
   "lastName": "Doe",
@@ -33,11 +33,11 @@ Likewise, another JSON object can act as a value, as well as a number, either of
     "zipCode": "01234"
   }
 }
-
+```
 
 
 A JSON array is a comma-separated list of values surrounded by square brackets. This list does not contain keys; instead, it only contains any number of values, including zero. An array containing zero values is called an empty array. For example:
-
+```json
 {
   "firstName": "John",
   "lastName": "Doe",
@@ -47,9 +47,9 @@ A JSON array is a comma-separated list of values surrounded by square brackets. 
   ],
   "children": []
 }
-
+```
 
 JSON arrays may be heterogeneous, containing values of mixed types, such as: 
-
+```json
 ["hi", {"name": "John Doe"}, null, 125] ```
 
